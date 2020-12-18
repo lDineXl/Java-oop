@@ -136,7 +136,7 @@ public class Container implements Serializable {
 		/*Method that removes from the underlying collection the last element returned by this iterator*/
 		@Override
 		public void remove() {
-			Container.this.remove(array[--index]);
+			Container.this.removeElement(array[--index]);
 		}
 	} 
 }
